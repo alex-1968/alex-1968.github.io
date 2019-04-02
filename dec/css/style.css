@@ -144,17 +144,14 @@ header {
     -webkit-animation: wrapper 1.5s forwards;
     animation: wrapper 1.5s forwards;
     display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     min-height: 90px;
 }
-header .btn {}
+header .logo {display: block;padding: 15px 0;width: 150px;}
+header .btn {height: 38px;}
 
 /* search */
 
+.search {width:100%;}
 .search .form-group {margin-bottom: 0;position: relative;}
 .search .btn {
     height: 38px;
@@ -174,10 +171,12 @@ nav.navbar-expand-lg .navbar-brand {
     font-weight: 700;
     letter-spacing: .6px;
     margin-right: 25px;
+	padding: 0;
     text-transform: uppercase;
 }
 nav.navbar-expand-lg .navbar-brand > span {color: #007BFF;}
 nav.sticky-top.navbar-expand-lg .navbar-brand {display: block;}
+nav.sticky-top.navbar-expand-lg .navbar-brand img {height: 40px;}
 nav.navbar-expand-lg .navbar-collapse {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
@@ -583,7 +582,8 @@ footer .copirayt p.ws {
     color: #fff;
     text-align: right;
 }
-footer .copirayt p.ws a {color: rgba(255, 255, 255, .6);;}
+footer .copirayt p.ws a {color: rgba(255, 255, 255, .6);}
+footer .copirayt img {max-width: 70%;padding-top: 10px;}
 
 /* Preloader */
 

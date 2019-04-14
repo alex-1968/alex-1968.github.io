@@ -236,7 +236,8 @@ nav.navbar-expand-lg .navbar-toggler {
     -webkit-transition: .3s all ease-out;
     transition: .3s all ease-out;
 }
-nav.navbar-expand-lg .navbar-toggler > i {font-size: 25px;}
+nav.navbar-expand-lg .navbar-toggler > i {
+    color: #289DA7;font-size: 25px;}
 nav.navbar-expand-lg .navbar-toggler:hover {color: #fff;}
 
 nav.navbar-expand-lg.sticky-top {
@@ -830,19 +831,31 @@ to {
 
 /*==========  Desktop First Method  ==========*/
 
-@media only screen and (max-width: 1200px) {
-
+@media only screen and (max-width: 1199px) {
+    header .header_button .btn {font-size: 13px;}
 }
 
-@media only screen and (max-width: 991px) {}
+@media only screen and (max-width: 991px) {
+    header {padding-bottom: 15px;}
+    header .logo {margin: 0 auto;}
+    header .header_button .btn {font-size: 16px;}
+    footer {padding-bottom: 15px;}
+    footer .copirayt img {max-width: 150px;}
+}
 
 @media only screen and (max-width: 768px) {}
 
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+    header .header_button .btn {font-size: 13px;}
+    .home-news .cart .wrap-img {height: auto;}
+}
 
 @media only screen and (max-width: 640px) {}
 
-@media only screen and (max-width: 575px) {}
+@media only screen and (max-width: 575px) {
+    header .header_button .btn {margin-top: 15px;}
+    .home-carusel.owl-carousel {display: none !important;}
+}
 
 @media only screen and (max-width: 480px) {}
 
